@@ -1,0 +1,40 @@
+.grid{
+    width:200px;
+    height: 400px;
+    display:flex;
+    /*The flex-wrap CSS property sets whether flex items are forced
+     onto one line or can wrap onto multiple lines. If wrapping 
+     is allowed, it sets the direction that lines are stacked.*/
+    flex-wrap:wrap;
+    background-color: turquoise; 
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino{
+    background-color: blue;
+}
+
+  
+.container {
+    display: flex;
+  }
+
+  
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+  }
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
